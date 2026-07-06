@@ -33,4 +33,11 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Vercel Deployment Instructions (Convex)
+
+1. Push your code to a GitHub repository.
+2. Import the project in Vercel.
+3. Add the following **Environment Variables** in Vercel dashboard:
+   - `NEXT_PUBLIC_CONVEX_URL`: Found in your `.env.local`
+   - `CONVEX_DEPLOY_KEY`: Go to Convex Dashboard -> Settings -> API Keys to generate a deploy key.
+4. Deploy! The `build` script will automatically run `npx convex deploy` before building Next.js.
