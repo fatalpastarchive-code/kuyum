@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { useQuery } from "convex/react";
 import { api } from "../../../convex/_generated/api";
-import { UserPlus, Search, ChevronRight, Loader2, ArrowUpRight, ArrowDownRight, Plus } from "lucide-react";
+import { UserPlus, Search, ChevronRight, Loader2, ArrowUpRight, ArrowDownRight, Plus, User } from "lucide-react";
 import Link from "next/link";
 import { useUnits } from "@/components/providers/UnitsProvider";
 
